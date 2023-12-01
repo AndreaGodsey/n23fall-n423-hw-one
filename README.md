@@ -6,6 +6,16 @@ Using The Cat Api to make a website.
 
 Andrea Godsey
 
+# Vercel Link to Project Itself
+
+https://vercel.com/new/andrea-godseys-projects/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=n23fall-n423-hw-90wlw6sqw-andrea-godseys-projects.vercel.app&projectName=n23fall-n423-hw-one&s=https%3A%2F%2Fgithub.com%2FAndreaGodsey%2Fn23fall-n423-hw-one&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1
+
+The fonts might not show up initially, but if you click on the project, the fonts will show up.
+
+# Vercel Link
+
+https://n23fall-n423-hw-one.vercel.app
+
 # Description
 
 A three page application for The Cat API assignment. This website is called The Cat Library, and navigates to a Home, Favorites, and More Details page. The home page has a button that loads a list of cat images. There is a save button that will save the image to the user's favorites page. The More Details button takes
