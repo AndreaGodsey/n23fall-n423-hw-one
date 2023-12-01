@@ -10,12 +10,12 @@ export default function App({ Component, pageProps }) {
   <AppProvider>
   <Menu>
 
-    <Menu.Item as ={Link} href='/'>
+    <Menu.Item style={{color: "orange", backgroundColor: "brown"}} as ={Link} href='/'>
       <Icon name='home'/>
       Home
     </Menu.Item>
 
-    <Menu.Item as ={Link} href='/favorites'>
+    <Menu.Item style={{color: "orange", backgroundColor: "brown"}} as ={Link} href='/favorites'>
     <Icon name='heart'/>
       Favorites
     </Menu.Item>

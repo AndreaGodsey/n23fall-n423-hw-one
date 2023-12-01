@@ -27,7 +27,7 @@ export default function Favorites() {
         </Grid.Column>
 
         <Grid.Column>
-            <Button content='Change Name' color='brown' icon='sync' onClick={changeName}/>
+            <Button content='Change Name' color='brown' icon='sync' onClick={changeName} />
         </Grid.Column>
 
         <Aboutfavorites descriptionone=' Welcome to your favorites page! Every cat image that you have favorited will show up here! Also, if you would like to change your username, click the "Change Username button. Enjoy your cats!
@@ -37,7 +37,7 @@ export default function Favorites() {
         
         <Grid.Row columns='5'>
         {appState.favoriteCats.map((cat) => {
-            return <CatImage key={cat.id} src={cat.url}/>
+            return <CatImage key={cat.id} src={cat.url} />
         })}
         </Grid.Row>
         

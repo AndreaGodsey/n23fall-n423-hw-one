@@ -49,7 +49,7 @@ return (
 
   <Grid.Row columns='5' >
     {appState.catImages.map((catImage) => {
-      return <CatImage  key={catImage.id} src={catImage.url}  onClick={() => saveCateImage(catImage)}></CatImage>;
+      return <CatImage  key={catImage.id} src={catImage.url}  onClick={() => saveCateImage(catImage)} id={catImage.id}></CatImage>;
     })}
     
    
